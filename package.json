@@ -1,6 +1,6 @@
 {
-  "name": "netsuite-tba-oauth",
-  "version": "0.8.0",
+  "name": "netsuite-tba-oauth-sha256",
+  "version": "1.0.0",
   "description": "NetSuite Token Based Authentication Module",
   "main": "app.js",
   "scripts": {
@@ -19,11 +19,11 @@
   "author": "Jaime Ramos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RezolveTecnologia/netsuite-tba-oauth/issues"
+    "url": "https://github.com/HanzChen/netsuite-tba-oauth-sha256/issues"
   },
-  "homepage": "https://github.com/RezolveTecnologia/netsuite-tba-oauth#readme",
+  "homepage": "https://github.com/HanzChen/netsuite-tba-oauth-sha256",
   "dependencies": {
-    "oauth-1.0a": "^2.2.4",
+    "oauth-1.0a": "^2.2.6",
     "request": "^2.88.0"
   }
 }
