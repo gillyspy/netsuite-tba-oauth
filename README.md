@@ -18,14 +18,14 @@ PUT (put function)
 
 Open a terminal session and enter the following command:
 
-``npm install netsuite-tba-oauth --save``
+``npm install https://github.com/HanzChen/netsuite-tba-oauth-sha256.git --save``
 
 ## Usage
 
 Example of GET request
 
 ```javascript
-const NetSuiteOauth = require('netsuite-tba-oauth');
+const NetSuiteOauth = require('netsuite-tba-oauth-sha256');
 
 const url = 'restlet-url';
 const method = 'GET';
@@ -43,7 +43,7 @@ oauth.get().then(response => console.log(response));
 Example of POST request
 
 ```javascript
-const NetSuiteOauth = require('netsuite-tba-oauth');
+const NetSuiteOauth = require('netsuite-tba-oauth-sha256');
 
 const url = 'restlet-url';
 const method = 'GET';
