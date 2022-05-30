@@ -1,6 +1,6 @@
 {
 	"name": "@suitegeezus/netsuite-tba-oauth",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "NetSuite Token Based Authentication Module",
 	"main": "app.js",
 	"scripts": {
