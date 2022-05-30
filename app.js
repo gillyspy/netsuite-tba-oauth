@@ -62,10 +62,10 @@ function NetSuiteOAuth(url, method, consumerKey, consumerSecret, tokenId, tokenS
         }
     },
         'headers' : {
-            get : ()=>{
-                ['Content-Type'] : 'application/json',
+            get : ()=>Object.assign({},{
+                  'Content-Type': 'application/json',
                   ...[this.oauth].reduce(oauth=>oauth.toHeader(oauth.authorize(that.request_data, that.token)),{});
-            }
+            })
         }
     });
 }
