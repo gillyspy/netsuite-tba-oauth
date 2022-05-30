@@ -1,14 +1,14 @@
 {
-	"name": "netsuite-tba-oauth-sha256",
+	"name": "@suitegeezus/netsuite-tba-oauth",
 	"version": "1.0.0",
 	"description": "NetSuite Token Based Authentication Module",
 	"main": "app.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 0"
 	},
 	"repository": {
 		"type": "https",
-		"url": "https://github.com/HanzChen/netsuite-tba-oauth-sha256"
+		"url": "https://github.com/gillyspy/netsuite-tba-oauth"
 	},
 	"keywords": [
 		"tba",
@@ -16,17 +16,14 @@
 		"netsuite",
 		"restlet"
 	],
-	"author": "Jaime Ramos",
+	"author": "Gerald Gillespie",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/HanzChen/netsuite-tba-oauth-sha256/issues"
+		"url": "https://github.com/gillyspy/netsuite-tba-oauth/issues"
 	},
-	"homepage": "https://github.com/HanzChen/netsuite-tba-oauth-sha256",
+	"homepage": "https://github.com/gillyspy/netsuite-tba-oauth",
 	"dependencies": {
 		"oauth-1.0a": "^2.2.6",
 		"request": "^2.88.0"
-	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
 	}
 }
